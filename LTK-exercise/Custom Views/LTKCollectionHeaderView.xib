@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="LTKCollectionHeaderView" customModule="LTK_exercise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fdc-tB-oWD">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T5e-yq-afF">
+                            <rect key="frame" x="20" y="12" width="46" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="46" id="E2Y-JO-zav"/>
+                                <constraint firstAttribute="width" constant="46" id="qzL-I9-7CY"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YV8-Xy-q0g">
+                            <rect key="frame" x="332" y="19" width="62" height="34"/>
+                            <color key="backgroundColor" white="0.12317828742825256" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="3q2-H8-PPL"/>
+                                <constraint firstAttribute="width" constant="62" id="LtF-kW-qu9"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Blog">
+                                <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="10"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="blogbuttonTapped" destination="U6b-Vx-4bR" eventType="touchUpInside" id="9yi-dL-52d"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="full name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sc2-9E-d6Q">
+                            <rect key="frame" x="79" y="24.5" width="233" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="sc2-9E-d6Q" firstAttribute="centerY" secondItem="T5e-yq-afF" secondAttribute="centerY" id="48f-si-uZE"/>
+                        <constraint firstAttribute="trailing" secondItem="YV8-Xy-q0g" secondAttribute="trailing" constant="20" id="BAL-Vh-uV7"/>
+                        <constraint firstItem="YV8-Xy-q0g" firstAttribute="centerY" secondItem="Fdc-tB-oWD" secondAttribute="centerY" constant="1" id="Jbk-5w-JVg"/>
+                        <constraint firstItem="T5e-yq-afF" firstAttribute="centerY" secondItem="Fdc-tB-oWD" secondAttribute="centerY" id="d7n-qO-Aoa"/>
+                        <constraint firstItem="sc2-9E-d6Q" firstAttribute="leading" secondItem="T5e-yq-afF" secondAttribute="trailing" constant="13" id="dtf-Zt-SHN"/>
+                        <constraint firstItem="T5e-yq-afF" firstAttribute="leading" secondItem="Fdc-tB-oWD" secondAttribute="leading" constant="20" id="fxg-ic-D5E"/>
+                        <constraint firstItem="YV8-Xy-q0g" firstAttribute="leading" secondItem="sc2-9E-d6Q" secondAttribute="trailing" constant="20" id="vOe-5B-twz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstItem="Fdc-tB-oWD" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="1AE-4N-laj"/>
+                <constraint firstItem="Fdc-tB-oWD" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="ATa-dc-bxB"/>
+                <constraint firstItem="Fdc-tB-oWD" firstAttribute="trailing" secondItem="VXr-Tz-HHm" secondAttribute="trailing" id="dlG-OI-pxp"/>
+                <constraint firstItem="Fdc-tB-oWD" firstAttribute="bottom" secondItem="VXr-Tz-HHm" secondAttribute="bottom" id="squ-kj-V4q"/>
+            </constraints>
+            <connections>
+                <outlet property="blogButton" destination="YV8-Xy-q0g" id="pua-EL-wJk"/>
+                <outlet property="contentView" destination="Fdc-tB-oWD" id="8eW-jZ-RSv"/>
+                <outlet property="nameLabel" destination="sc2-9E-d6Q" id="NMR-bf-OCY"/>
+                <outlet property="profileImageView" destination="T5e-yq-afF" id="Ab6-sv-Uqj"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="57.589285714285708"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

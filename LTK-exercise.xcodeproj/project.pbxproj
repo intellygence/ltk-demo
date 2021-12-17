@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A04779A276A7E4F00EF72D6 /* AdjustableHeightImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A047799276A7E4F00EF72D6 /* AdjustableHeightImageView.swift */; };
+		6A04779C276AA91000EF72D6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A04779B276AA91000EF72D6 /* DetailViewController.swift */; };
+		6A0477A1276ABFD800EF72D6 /* LTKDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0477A0276ABFD800EF72D6 /* LTKDataManager.swift */; };
+		6A0477B0276B1DD100EF72D6 /* LTKCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0477AE276B1DD100EF72D6 /* LTKCollectionHeaderView.swift */; };
+		6A0477B1276B1DD100EF72D6 /* LTKCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0477AF276B1DD100EF72D6 /* LTKCollectionHeaderView.xib */; };
+		6A0477B4276B1E8000EF72D6 /* LTKProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0477B2276B1E8000EF72D6 /* LTKProductCollectionViewCell.swift */; };
+		6A0477B5276B1E8000EF72D6 /* LTKProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0477B3276B1E8000EF72D6 /* LTKProductCollectionViewCell.xib */; };
+		6A2B9C82276A4C60000C5C5D /* LTKFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B9C80276A4C60000C5C5D /* LTKFeedCell.swift */; };
+		6A2B9C83276A4C60000C5C5D /* LTKFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B9C81276A4C60000C5C5D /* LTKFeedCell.xib */; };
+		6A2B9C87276A60AA000C5C5D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B9C86276A60AA000C5C5D /* FeedViewController.swift */; };
+		6A2B9C89276A61B5000C5C5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B9C88276A61B5000C5C5D /* Constants.swift */; };
+		6A2B9C8B276A6C33000C5C5D /* LTKImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B9C8A276A6C33000C5C5D /* LTKImageManager.swift */; };
+		6AC843712769A094006E6384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC843702769A094006E6384 /* AppDelegate.swift */; };
+		6AC843732769A094006E6384 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC843722769A094006E6384 /* SceneDelegate.swift */; };
+		6AC843782769A094006E6384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC843762769A094006E6384 /* Main.storyboard */; };
+		6AC8437A2769A098006E6384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC843792769A098006E6384 /* Assets.xcassets */; };
+		6AC8437D2769A098006E6384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8437B2769A098006E6384 /* LaunchScreen.storyboard */; };
+		6AC843852769A47F006E6384 /* LTKFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC843842769A47F006E6384 /* LTKFeed.swift */; };
+		6AC84387276A26D7006E6384 /* LTKApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC84386276A26D7006E6384 /* LTKApiManager.swift */; };
+		6AF6151C276C0C3B00C2F529 /* LTKProductHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6151A276C0C3B00C2F529 /* LTKProductHeaderView.swift */; };
+		6AF6151D276C0C3B00C2F529 /* LTKProductHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF6151B276C0C3B00C2F529 /* LTKProductHeaderView.xib */; };
+		6AF6151F276C421900C2F529 /* Extensions+UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6151E276C421900C2F529 /* Extensions+UINavigationController.swift */; };
+		DB0017150F0DE62DE15A3D9F /* Pods_LTK_exercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2CB38B8A7B365824CD07E6 /* Pods_LTK_exercise.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F03EF690A4D01BFE370DD4A /* Pods-LTK-exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTK-exercise.release.xcconfig"; path = "Target Support Files/Pods-LTK-exercise/Pods-LTK-exercise.release.xcconfig"; sourceTree = "<group>"; };
+		6A047799276A7E4F00EF72D6 /* AdjustableHeightImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableHeightImageView.swift; sourceTree = "<group>"; };
+		6A04779B276AA91000EF72D6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6A0477A0276ABFD800EF72D6 /* LTKDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKDataManager.swift; sourceTree = "<group>"; };
+		6A0477AE276B1DD100EF72D6 /* LTKCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKCollectionHeaderView.swift; sourceTree = "<group>"; };
+		6A0477AF276B1DD100EF72D6 /* LTKCollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTKCollectionHeaderView.xib; sourceTree = "<group>"; };
+		6A0477B2276B1E8000EF72D6 /* LTKProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		6A0477B3276B1E8000EF72D6 /* LTKProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTKProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		6A2B9C80276A4C60000C5C5D /* LTKFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKFeedCell.swift; sourceTree = "<group>"; };
+		6A2B9C81276A4C60000C5C5D /* LTKFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTKFeedCell.xib; sourceTree = "<group>"; };
+		6A2B9C86276A60AA000C5C5D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		6A2B9C88276A61B5000C5C5D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6A2B9C8A276A6C33000C5C5D /* LTKImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKImageManager.swift; sourceTree = "<group>"; };
+		6AC8436D2769A094006E6384 /* LTK-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LTK-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC843702769A094006E6384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AC843722769A094006E6384 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6AC843772769A094006E6384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AC843792769A098006E6384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AC8437C2769A098006E6384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AC8437E2769A098006E6384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC843842769A47F006E6384 /* LTKFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKFeed.swift; sourceTree = "<group>"; };
+		6AC84386276A26D7006E6384 /* LTKApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKApiManager.swift; sourceTree = "<group>"; };
+		6AF6151A276C0C3B00C2F529 /* LTKProductHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKProductHeaderView.swift; sourceTree = "<group>"; };
+		6AF6151B276C0C3B00C2F529 /* LTKProductHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTKProductHeaderView.xib; sourceTree = "<group>"; };
+		6AF6151E276C421900C2F529 /* Extensions+UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UINavigationController.swift"; sourceTree = "<group>"; };
+		8F2CB38B8A7B365824CD07E6 /* Pods_LTK_exercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTK_exercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB66E44C868EBBB97E9C7B3 /* Pods-LTK-exercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTK-exercise.debug.xcconfig"; path = "Target Support Files/Pods-LTK-exercise/Pods-LTK-exercise.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AC8436A2769A094006E6384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0017150F0DE62DE15A3D9F /* Pods_LTK_exercise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43FC3B7772198BEF7A6FD450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F2CB38B8A7B365824CD07E6 /* Pods_LTK_exercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A04779D276ABF7B00EF72D6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B9C86276A60AA000C5C5D /* FeedViewController.swift */,
+				6A04779B276AA91000EF72D6 /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6A04779F276ABFA600EF72D6 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B9C80276A4C60000C5C5D /* LTKFeedCell.swift */,
+				6A2B9C81276A4C60000C5C5D /* LTKFeedCell.xib */,
+				6A0477B2276B1E8000EF72D6 /* LTKProductCollectionViewCell.swift */,
+				6A0477B3276B1E8000EF72D6 /* LTKProductCollectionViewCell.xib */,
+				6A0477AE276B1DD100EF72D6 /* LTKCollectionHeaderView.swift */,
+				6A0477AF276B1DD100EF72D6 /* LTKCollectionHeaderView.xib */,
+				6AF6151A276C0C3B00C2F529 /* LTKProductHeaderView.swift */,
+				6AF6151B276C0C3B00C2F529 /* LTKProductHeaderView.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		6A0477A2276ABFF900EF72D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B9C88276A61B5000C5C5D /* Constants.swift */,
+				6AC843842769A47F006E6384 /* LTKFeed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A0477A3276AC00F00EF72D6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6A047799276A7E4F00EF72D6 /* AdjustableHeightImageView.swift */,
+				6A2B9C8A276A6C33000C5C5D /* LTKImageManager.swift */,
+				6AC84386276A26D7006E6384 /* LTKApiManager.swift */,
+				6A0477A0276ABFD800EF72D6 /* LTKDataManager.swift */,
+				6AF6151E276C421900C2F529 /* Extensions+UINavigationController.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6AC843642769A094006E6384 = {
+			isa = PBXGroup;
+			children = (
+				6AC8436F2769A094006E6384 /* LTK-exercise */,
+				6AC8436E2769A094006E6384 /* Products */,
+				FF3C5617E7F60A12D99C3C57 /* Pods */,
+				43FC3B7772198BEF7A6FD450 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AC8436E2769A094006E6384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AC8436D2769A094006E6384 /* LTK-exercise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AC8436F2769A094006E6384 /* LTK-exercise */ = {
+			isa = PBXGroup;
+			children = (
+				6AC843702769A094006E6384 /* AppDelegate.swift */,
+				6AC843722769A094006E6384 /* SceneDelegate.swift */,
+				6A04779D276ABF7B00EF72D6 /* View Controllers */,
+				6A04779F276ABFA600EF72D6 /* Custom Views */,
+				6A0477A2276ABFF900EF72D6 /* Models */,
+				6A0477A3276AC00F00EF72D6 /* Utilities */,
+				6AC843762769A094006E6384 /* Main.storyboard */,
+				6AC843792769A098006E6384 /* Assets.xcassets */,
+				6AC8437B2769A098006E6384 /* LaunchScreen.storyboard */,
+				6AC8437E2769A098006E6384 /* Info.plist */,
+			);
+			path = "LTK-exercise";
+			sourceTree = "<group>";
+		};
+		FF3C5617E7F60A12D99C3C57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDB66E44C868EBBB97E9C7B3 /* Pods-LTK-exercise.debug.xcconfig */,
+				0F03EF690A4D01BFE370DD4A /* Pods-LTK-exercise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AC8436C2769A094006E6384 /* LTK-exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC843812769A098006E6384 /* Build configuration list for PBXNativeTarget "LTK-exercise" */;
+			buildPhases = (
+				F01F39F26ED36C108049FB81 /* [CP] Check Pods Manifest.lock */,
+				6AC843692769A094006E6384 /* Sources */,
+				6AC8436A2769A094006E6384 /* Frameworks */,
+				6AC8436B2769A094006E6384 /* Resources */,
+				2BB3E5191CD092A9299AAB10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LTK-exercise";
+			productName = "LTK-exercise";
+			productReference = 6AC8436D2769A094006E6384 /* LTK-exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AC843652769A094006E6384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6AC8436C2769A094006E6384 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 6AC843682769A094006E6384 /* Build configuration list for PBXProject "LTK-exercise" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AC843642769A094006E6384;
+			productRefGroup = 6AC8436E2769A094006E6384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AC8436C2769A094006E6384 /* LTK-exercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AC8436B2769A094006E6384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0477B5276B1E8000EF72D6 /* LTKProductCollectionViewCell.xib in Resources */,
+				6AC8437D2769A098006E6384 /* LaunchScreen.storyboard in Resources */,
+				6AC8437A2769A098006E6384 /* Assets.xcassets in Resources */,
+				6A0477B1276B1DD100EF72D6 /* LTKCollectionHeaderView.xib in Resources */,
+				6AF6151D276C0C3B00C2F529 /* LTKProductHeaderView.xib in Resources */,
+				6AC843782769A094006E6384 /* Main.storyboard in Resources */,
+				6A2B9C83276A4C60000C5C5D /* LTKFeedCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BB3E5191CD092A9299AAB10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTK-exercise/Pods-LTK-exercise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTK-exercise/Pods-LTK-exercise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LTK-exercise/Pods-LTK-exercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01F39F26ED36C108049FB81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LTK-exercise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AC843692769A094006E6384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC843712769A094006E6384 /* AppDelegate.swift in Sources */,
+				6AF6151C276C0C3B00C2F529 /* LTKProductHeaderView.swift in Sources */,
+				6A0477B0276B1DD100EF72D6 /* LTKCollectionHeaderView.swift in Sources */,
+				6A04779A276A7E4F00EF72D6 /* AdjustableHeightImageView.swift in Sources */,
+				6AC843852769A47F006E6384 /* LTKFeed.swift in Sources */,
+				6A0477B4276B1E8000EF72D6 /* LTKProductCollectionViewCell.swift in Sources */,
+				6A0477A1276ABFD800EF72D6 /* LTKDataManager.swift in Sources */,
+				6A2B9C82276A4C60000C5C5D /* LTKFeedCell.swift in Sources */,
+				6AC843732769A094006E6384 /* SceneDelegate.swift in Sources */,
+				6A2B9C87276A60AA000C5C5D /* FeedViewController.swift in Sources */,
+				6A2B9C8B276A6C33000C5C5D /* LTKImageManager.swift in Sources */,
+				6A04779C276AA91000EF72D6 /* DetailViewController.swift in Sources */,
+				6AF6151F276C421900C2F529 /* Extensions+UINavigationController.swift in Sources */,
+				6AC84387276A26D7006E6384 /* LTKApiManager.swift in Sources */,
+				6A2B9C89276A61B5000C5C5D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AC843762769A094006E6384 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AC843772769A094006E6384 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AC8437B2769A098006E6384 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AC8437C2769A098006E6384 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AC8437F2769A098006E6384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AC843802769A098006E6384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AC843822769A098006E6384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB66E44C868EBBB97E9C7B3 /* Pods-LTK-exercise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85345VVBEU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LTK-exercise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahiemklugh.ltk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AC843832769A098006E6384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F03EF690A4D01BFE370DD4A /* Pods-LTK-exercise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85345VVBEU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LTK-exercise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahiemklugh.ltk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AC843682769A094006E6384 /* Build configuration list for PBXProject "LTK-exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC8437F2769A098006E6384 /* Debug */,
+				6AC843802769A098006E6384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC843812769A098006E6384 /* Build configuration list for PBXNativeTarget "LTK-exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC843822769A098006E6384 /* Debug */,
+				6AC843832769A098006E6384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AC843652769A094006E6384 /* Project object */;
+}
